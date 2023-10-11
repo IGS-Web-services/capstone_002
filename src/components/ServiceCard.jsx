@@ -4,7 +4,7 @@ const ServiceCard = ({ image, heading, body }) => {
       <img
         src={image}
         alt="Alternative image"
-        className=" rounded-lg shadow-xl shadow-primary w-full h-60"
+        className=" rounded-lg shadow-xl shadow-primary/20 w-full h-60"
       />
       <figcaption className=" flex flex-col justify-start items-center  gap-2 py-2 text-white">
         <h3 className="text-center text-lg font-bold ">{heading}</h3>

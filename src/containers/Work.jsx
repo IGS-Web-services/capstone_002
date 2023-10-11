@@ -7,10 +7,10 @@ const Work = () => {
   return (
     <article
       id="projects"
-      className="relative bg-slate-100 py-16 rounded-lg laptop:rounded-lg "
+      className="relative bg-slate-100 py-16 rounded-lg lg:rounded-lg "
     >
       <SectionHeading subTitle="projects" title="featured work" />
-      <section className="grid phone:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-4 gap-5 p-4 place-items-center px-5 tablet:px-10 laptop:px-15 rounded-2xl">
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 p-4 place-items-center px-5 md:px-10 lg:px-15 rounded-2xl">
         <WorkCard
           status="version 1.0"
           link="https://elimu-mkononi.netlify.app/"

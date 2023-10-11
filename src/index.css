@@ -35,13 +35,13 @@
 }
 
 /* ID'S */
-#contact {
+#main{
   background-image: url("./assets/Africa_3.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* SECTIONS */
+SECTIONS
 
 .section_hidden {
   opacity: 0;

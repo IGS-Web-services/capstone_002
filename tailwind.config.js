@@ -5,12 +5,12 @@ export default {
     fontFamily: {
       primary: ["Lexend Deca", "sans-serif"],
     },
-    screens: {
-      phone: "300px",
-      tablet: "568px",
-      laptop: "1025px",
-      "2xl": "1400px",
-    },
+    // screens: {
+    //   //  "300px",
+    //   md: "568px",
+    //   lg: "1025px",
+    //   "2xl": "1400px",
+    // },
     extend: {
       colors: {
         card: "#F1F1F1",

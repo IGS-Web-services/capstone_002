@@ -1,6 +1,6 @@
 const Experience = () => {
   return (
-    <section className="flex items-center justify-start gap-4  shadow-lg h-20 w-[360px] laptop:w-[430px] bg-white bg-orange-400/30 rounded-xl px-5 ">
+    <section className="flex items-center justify-start gap-4  shadow-lg h-20 w-[360px] lg:w-[430px] bg-white bg-orange-400/30 rounded-xl px-5 ">
       <p className="h-full text-primary flex flex-row items-center justify-center w-[20%] font-bold text-lg">
         2022
       </p>

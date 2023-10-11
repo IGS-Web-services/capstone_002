@@ -14,7 +14,7 @@ const Services = () => {
       className=" relative w-full bg-black/30  backdrop-blur-lg py-16 service"
     >
       <SectionHeading subTitle="Services" title="What we offer" />
-      <section className="grid phone:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-4 gap-5 place-items-center px-5 tablet:px-10 laptop:px-15">
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 place-items-center px-5 md:px-10 lg:px-15">
         <ServiceCard
           image={FrontEnd}
           heading="Front End Excellence"

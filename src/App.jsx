@@ -9,6 +9,7 @@ import {
   Work,
 } from "./containers";
 import "./App.css";
+import { Navbar } from "./components";
 
 function App() {
   const sectionObserver = useCallback(() => {
@@ -56,9 +57,10 @@ function App() {
 
   return (
     <main
-      id="contact"
-      className="w-full h-screen flex flex-col overflow-x-hidden overflow-auto pl-1"
+      id="main"
+      className=" main w-full h-screen flex flex-col overflow-x-hidden overflow-auto pl-1"
     >
+      <Navbar/>
       <Banner />
       <About />
       <Services />

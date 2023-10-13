@@ -2,7 +2,7 @@ import { SectionHeading } from "../components";
 
 const Contact = () => {
   return (
-    <article className="w-full bg-slate-100 rounded-t-lg">
+    <article id="contact" className="w-full bg-slate-100 rounded-t-lg">
       <section className="section_hidden w-full py-16">
         <SectionHeading subTitle="Have a gig?" title="Reach out" />
         <section className="section_hidden flex flex-col  gap-8 w-full items-center justify-center">

@@ -7,6 +7,7 @@ import SocialMediaIcon from "./SocialMediaIcon";
 import SubTitle from "./SubTitle";
 import TechTag from "./TechTag";
 import WorkCard from "./WorkCard";
+import Link from "./Link";
 
 export {
   Experience,
@@ -18,4 +19,5 @@ export {
   SubTitle,
   TechTag,
   WorkCard,
+  Link,
 };

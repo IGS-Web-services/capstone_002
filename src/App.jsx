@@ -1,4 +1,5 @@
 import { useEffect, useCallback } from "react";
+import { Navbar } from "./components";
 import {
   About,
   Banner,
@@ -56,9 +57,10 @@ function App() {
 
   return (
     <main
-      id="contact"
+      id="banner"
       className="w-full h-screen flex flex-col overflow-x-hidden overflow-auto pl-1"
     >
+      <Navbar />
       <Banner />
       <About />
       <Services />

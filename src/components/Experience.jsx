@@ -6,8 +6,8 @@ const Experience = () => {
       </p>
       <p className="h-[65%] rounded-lg bg-primary w-[2px]"></p>
       <p className="flex flex-col ">
-        <span className="text-md font-bold ">MERN Stack Developer</span>
-        <span>Fiverr</span>
+        <span className="text-md font-bold ">Freelancer</span>
+        <span>Upwork</span>
       </p>
     </section>
   );

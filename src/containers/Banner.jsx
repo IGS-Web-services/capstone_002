@@ -10,7 +10,7 @@ const Banner = () => {
             Mechatronics Engineer
           </h4>
           <h2 className="text-2xl tablet:text-4xl laptop:text-6xl uppercase font-bold ">
-            <span className="text-secondary">Jane Atieno </span>
+            <span className="text-secondary">James Ngei </span>
           </h2>
         </figcaption>
       </article>

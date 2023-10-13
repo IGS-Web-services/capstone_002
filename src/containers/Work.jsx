@@ -1,7 +1,7 @@
 import { SectionHeading, WorkCard } from "../components";
-import ChurchApp from "../assets/Church_App.png";
-import ElimuHub from "../assets/Elimu_Mkononi.png";
-import FrancisPortfolio from "../assets/Francis_Portfolio.png";
+import SmartFarm from "../assets/Smart_Farming.jpg";
+import CarTracking from "../assets/Car_Tracher.jpg";
+import AtegoNano from "../assets/Atego_Nano.jpg";
 
 const Work = () => {
   return (
@@ -12,25 +12,22 @@ const Work = () => {
       <SectionHeading subTitle="projects" title="featured work" />
       <section className="grid phone:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-4 gap-5 p-4 place-items-center px-5 tablet:px-10 laptop:px-15 rounded-2xl">
         <WorkCard
-          status="version 1.0"
-          link="https://elimu-mkononi.netlify.app/"
-          image={ElimuHub}
-          name="Elimu Hub"
-          description="An e-learning platform with analytics and custom authentication"
+          link="#"
+          image={AtegoNano}
+          name="Atego Nano"
+          description="A variant of the arduino nano"
         />
         <WorkCard
-          status="under construction"
-          link="https://aipca-app.vercel.app/"
-          image={ChurchApp}
-          name="AIPCA Nyahururu"
-          description="A church application meant to simplify communication and automate record keeping"
+          link="#"
+          image={CarTracking}
+          name="Car tracker"
+          description="STM 32 Based car tracker"
         />
         <WorkCard
-          status="version 1.0"
-          link="https://francisgitau.vercel.app/"
-          image={FrancisPortfolio}
-          name="Portfolio"
-          description="A portfolio website for skills display"
+          link="#"
+          image={SmartFarm}
+          name="Smart Farm"
+          description="A smart farm project"
         />
       </section>
     </article>

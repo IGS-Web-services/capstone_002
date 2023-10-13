@@ -4,6 +4,7 @@ import SectionHeading from "./SectionHeading";
 import ServiceCard from "./ServiceCard";
 import Skill from "./Skill";
 import SocialMediaIcon from "./SocialMediaIcon";
+import EducationCard from "./EducationCard";
 import SubTitle from "./SubTitle";
 import TechTag from "./TechTag";
 import WorkCard from "./WorkCard";
@@ -16,6 +17,7 @@ export {
   ServiceCard,
   Skill,
   SocialMediaIcon,
+  EducationCard,
   SubTitle,
   TechTag,
   WorkCard,

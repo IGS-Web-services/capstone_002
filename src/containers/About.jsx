@@ -1,5 +1,5 @@
-import resume from "../assets/resume.pdf";
-import banner from "../assets/Electrical_Engineering.jpg";
+import resume from "../assets/James_Ngei_Resume.pdf";
+import banner from "../assets/Profile.jpg";
 import { SectionHeading } from "../components";
 
 const About = () => {
@@ -12,14 +12,15 @@ const About = () => {
       <section className="flex flex-col laptop:flex-row items-center gap-12">
         <figcaption className=" order-1 laptop:order-2 relative w-full laptop:w-[50%] flex flex-col items-center laptop:items-start justify-center py-12 pl-5 text-center ">
           <p className="text-md tablet:text-lg text-center laptop:text-start pt-3 pb-10 ">
-            Im a proficient <span className="">web developer</span> with a keen
-            interest in building stunning, user-centric and lightning-fast web
-            applications using cutting-edge technologies like Astro and Next.js.
+            I am an mechatronic engineering student, passionate about
+            integrating mechanical, electrical, and computer engineering.
+            Dedicated to innovative projects, collaborative learning, and
+            shaping the future through cutting-edge technologies.
           </p>
 
           <a
             href={resume}
-            download="Alfred_Gichia"
+            download="James Ngei"
             className="bg-primary hover:bg-red-500 h-12 rounded-full px-4  text-white w-[80%] tablet:w-56 flex flex-row items-center justify-center mx-auto laptop:mx-0"
           >
             View Resume

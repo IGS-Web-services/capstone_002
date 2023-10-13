@@ -6,12 +6,9 @@ import github from "../assets/github_logo.png";
 const SocialMedia = () => {
   return (
     <section className="fixed bottom-4 left-5 gap-5 z-50">
-      <SocialMediaIcon link="https://github.com/FredsTechVerse" icon={github} />
-      <SocialMediaIcon
-        link="https://www.linkedin.com/in/alfred-gichia"
-        icon={linkedIn}
-      />
-      <SocialMediaIcon link="https://twitter.com/AlfredGichia" icon={twitter} />
+      <SocialMediaIcon link="#" icon={github} />
+      <SocialMediaIcon link="#" icon={linkedIn} />
+      <SocialMediaIcon link="#" icon={twitter} />
     </section>
   );
 };

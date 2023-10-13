@@ -7,6 +7,7 @@ import {
   Services,
   Skills,
   SocialMedia,
+  Education,
   Work,
 } from "./containers";
 import "./App.css";

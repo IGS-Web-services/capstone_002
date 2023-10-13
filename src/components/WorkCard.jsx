@@ -3,9 +3,6 @@ import { TechTag } from "../components";
 const WorkCard = ({ image, name, description, link, status }) => {
   return (
     <section className="work section_hidden  rounded-lg  aspect-square w-full flex flex-col items-center justify-start h-full shadow-xl bg-transparent shadow-slate-500/40 cursor-pointer pb-1  ">
-      {/* <span className="capitalize absolute top-1 right-1 z-10 bg-blue-600/70 backdrop-blur-lg rounded-full text-white text-xs h-5 px-3 flex items-center justify-center ">
-        {status}
-      </span> */}
       <figure className="rounded-l w-full h-[60%] relative group ">
         <a href={link}>
           <img
@@ -22,11 +19,10 @@ const WorkCard = ({ image, name, description, link, status }) => {
         <p className=" text-[15px] font-thin mt-5 text-center w-full">
           {description}
         </p>
-        {/* <section className=" flex items-center justify-center gap-1 ">
-          <TechTag text="react" />
-          <TechTag text="tailwind" />
-          <TechTag text="mongodb" />
-        </section> */}
+        <section className=" flex items-center justify-center gap-1 ">
+          <TechTag text="kicad" />
+          <TechTag text="solid works" />
+        </section>
       </figcaption>
     </section>
   );
